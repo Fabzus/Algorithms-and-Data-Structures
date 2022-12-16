@@ -1,4 +1,4 @@
-```
+```python
 def linear_search(haystack, needle):
     for index in range(0, len(haystack)):
         if haystack[index] == needle:
@@ -7,7 +7,7 @@ def linear_search(haystack, needle):
 # Go 1 by 1 until you find a match, if you find one simply return True
 ```
 
-```
+```python
 from math import floor
 
 haystack=[]
@@ -40,7 +40,7 @@ def binary_search(haystack, needle):
 binary_search(haystack, 128300)
 ```
 
-```
+```python
 from math import floor,sqrt
 
 breakPoints = [False, False, False, False, False, False, False, False, False, False, True, True, True, True, ]
@@ -76,7 +76,7 @@ def two_crystal_balls(breaks):
 two_crystal_balls(breakPoints)
 ```
 
-```
+```python
 from random import randint
 unsortedArray=[]
 for i in range(50):
